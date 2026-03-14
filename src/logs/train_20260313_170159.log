@@ -1,0 +1,80 @@
+2026-03-13 17:01:59,725 | INFO | Config: epochs=25, lr=0.001, batch_size=64, seed=42, patience=5
+2026-03-13 17:01:59,725 | INFO | Device: cpu
+2026-03-13 17:02:00,199 | INFO | Epoch 1/25
+2026-03-13 17:18:00,253 | INFO | Epoch 1 | Train Loss: 0.2777 | Train Acc: 0.9093 | Val Loss: 0.1640 | Val Acc: 0.9462 | LR: 0.001000
+2026-03-13 17:18:00,398 | INFO | Saved best model (val_loss=0.1640)
+2026-03-13 17:18:00,398 | INFO | Epoch 2/25
+2026-03-13 17:33:57,638 | INFO | Epoch 2 | Train Loss: 0.1856 | Train Acc: 0.9374 | Val Loss: 0.1611 | Val Acc: 0.9440 | LR: 0.001000
+2026-03-13 17:33:57,862 | INFO | Saved best model (val_loss=0.1611)
+2026-03-13 17:33:57,862 | INFO | Epoch 3/25
+2026-03-13 17:49:40,038 | INFO | Epoch 3 | Train Loss: 0.1638 | Train Acc: 0.9444 | Val Loss: 0.1019 | Val Acc: 0.9649 | LR: 0.001000
+2026-03-13 17:49:40,236 | INFO | Saved best model (val_loss=0.1019)
+2026-03-13 17:49:40,236 | INFO | Epoch 4/25
+2026-03-13 18:05:09,657 | INFO | Epoch 4 | Train Loss: 0.1411 | Train Acc: 0.9540 | Val Loss: 0.0882 | Val Acc: 0.9751 | LR: 0.001000
+2026-03-13 18:05:09,764 | INFO | Saved best model (val_loss=0.0882)
+2026-03-13 18:05:09,764 | INFO | Epoch 5/25
+2026-03-13 19:49:09,927 | INFO | Epoch 5 | Train Loss: 0.1390 | Train Acc: 0.9533 | Val Loss: 0.1025 | Val Acc: 0.9684 | LR: 0.001000
+2026-03-13 19:49:09,927 | INFO | No improvement (1/5)
+2026-03-13 19:49:09,927 | INFO | Epoch 6/25
+2026-03-13 20:14:32,482 | INFO | Epoch 6 | Train Loss: 0.1257 | Train Acc: 0.9576 | Val Loss: 0.0973 | Val Acc: 0.9674 | LR: 0.001000
+2026-03-13 20:14:32,483 | INFO | No improvement (2/5)
+2026-03-13 20:14:32,553 | INFO | Epoch 7/25
+2026-03-13 20:40:44,466 | INFO | Epoch 7 | Train Loss: 0.1308 | Train Acc: 0.9569 | Val Loss: 0.0841 | Val Acc: 0.9728 | LR: 0.001000
+2026-03-13 20:40:44,758 | INFO | Saved best model (val_loss=0.0841)
+2026-03-13 20:40:44,758 | INFO | Epoch 8/25
+2026-03-13 20:56:23,308 | INFO | Epoch 8 | Train Loss: 0.1250 | Train Acc: 0.9576 | Val Loss: 0.0931 | Val Acc: 0.9691 | LR: 0.001000
+2026-03-13 20:56:23,308 | INFO | No improvement (1/5)
+2026-03-13 20:56:23,308 | INFO | Epoch 9/25
+2026-03-13 21:10:24,857 | INFO | Epoch 9 | Train Loss: 0.1223 | Train Acc: 0.9602 | Val Loss: 0.0863 | Val Acc: 0.9706 | LR: 0.001000
+2026-03-13 21:10:24,857 | INFO | No improvement (2/5)
+2026-03-13 21:10:24,857 | INFO | Epoch 10/25
+2026-03-13 21:25:33,614 | INFO | Epoch 10 | Train Loss: 0.1122 | Train Acc: 0.9633 | Val Loss: 0.0778 | Val Acc: 0.9743 | LR: 0.001000
+2026-03-13 21:25:33,820 | INFO | Saved best model (val_loss=0.0778)
+2026-03-13 21:25:33,820 | INFO | Epoch 11/25
+2026-03-13 21:40:56,610 | INFO | Epoch 11 | Train Loss: 0.1113 | Train Acc: 0.9618 | Val Loss: 0.0969 | Val Acc: 0.9714 | LR: 0.001000
+2026-03-13 21:40:56,610 | INFO | No improvement (1/5)
+2026-03-13 21:40:56,610 | INFO | Epoch 12/25
+2026-03-13 21:55:50,984 | INFO | Epoch 12 | Train Loss: 0.1049 | Train Acc: 0.9636 | Val Loss: 0.0814 | Val Acc: 0.9714 | LR: 0.001000
+2026-03-13 21:55:50,984 | INFO | No improvement (2/5)
+2026-03-13 21:55:50,984 | INFO | Epoch 13/25
+2026-03-13 22:09:32,938 | INFO | Epoch 13 | Train Loss: 0.1002 | Train Acc: 0.9662 | Val Loss: 0.0672 | Val Acc: 0.9775 | LR: 0.001000
+2026-03-13 22:09:33,049 | INFO | Saved best model (val_loss=0.0672)
+2026-03-13 22:09:33,049 | INFO | Epoch 14/25
+2026-03-13 22:22:50,655 | INFO | Epoch 14 | Train Loss: 0.1004 | Train Acc: 0.9667 | Val Loss: 0.0768 | Val Acc: 0.9751 | LR: 0.001000
+2026-03-13 22:22:50,655 | INFO | No improvement (1/5)
+2026-03-13 22:22:50,655 | INFO | Epoch 15/25
+2026-03-13 22:36:11,904 | INFO | Epoch 15 | Train Loss: 0.1034 | Train Acc: 0.9658 | Val Loss: 0.0662 | Val Acc: 0.9783 | LR: 0.001000
+2026-03-13 22:36:12,032 | INFO | Saved best model (val_loss=0.0662)
+2026-03-13 22:36:12,032 | INFO | Epoch 16/25
+2026-03-13 22:48:56,941 | INFO | Epoch 16 | Train Loss: 0.0976 | Train Acc: 0.9670 | Val Loss: 0.0986 | Val Acc: 0.9691 | LR: 0.001000
+2026-03-13 22:48:56,941 | INFO | No improvement (1/5)
+2026-03-13 22:48:56,941 | INFO | Epoch 17/25
+2026-03-13 23:04:12,285 | INFO | Epoch 17 | Train Loss: 0.0942 | Train Acc: 0.9680 | Val Loss: 0.0912 | Val Acc: 0.9711 | LR: 0.001000
+2026-03-13 23:04:12,289 | INFO | No improvement (2/5)
+2026-03-13 23:04:12,289 | INFO | Epoch 18/25
+2026-03-13 23:17:57,077 | INFO | Epoch 18 | Train Loss: 0.0939 | Train Acc: 0.9686 | Val Loss: 0.0791 | Val Acc: 0.9738 | LR: 0.001000
+2026-03-13 23:17:57,077 | INFO | No improvement (3/5)
+2026-03-13 23:17:57,077 | INFO | Epoch 19/25
+2026-03-13 23:32:37,921 | INFO | Epoch 19 | Train Loss: 0.0928 | Train Acc: 0.9688 | Val Loss: 0.0791 | Val Acc: 0.9746 | LR: 0.000100
+2026-03-13 23:32:37,921 | INFO | No improvement (4/5)
+2026-03-13 23:32:37,921 | INFO | Epoch 20/25
+2026-03-13 23:55:27,948 | INFO | Epoch 20 | Train Loss: 0.0630 | Train Acc: 0.9785 | Val Loss: 0.0581 | Val Acc: 0.9798 | LR: 0.000100
+2026-03-13 23:55:28,113 | INFO | Saved best model (val_loss=0.0581)
+2026-03-13 23:55:28,113 | INFO | Epoch 21/25
+2026-03-14 00:16:09,090 | INFO | Epoch 21 | Train Loss: 0.0534 | Train Acc: 0.9822 | Val Loss: 0.0602 | Val Acc: 0.9783 | LR: 0.000100
+2026-03-14 00:16:09,090 | INFO | No improvement (1/5)
+2026-03-14 00:16:09,090 | INFO | Epoch 22/25
+2026-03-14 00:33:04,702 | INFO | Epoch 22 | Train Loss: 0.0511 | Train Acc: 0.9823 | Val Loss: 0.0571 | Val Acc: 0.9802 | LR: 0.000100
+2026-03-14 00:33:04,813 | INFO | Saved best model (val_loss=0.0571)
+2026-03-14 00:33:04,813 | INFO | Epoch 23/25
+2026-03-14 00:49:15,428 | INFO | Epoch 23 | Train Loss: 0.0476 | Train Acc: 0.9847 | Val Loss: 0.0555 | Val Acc: 0.9800 | LR: 0.000100
+2026-03-14 00:49:15,555 | INFO | Saved best model (val_loss=0.0555)
+2026-03-14 00:49:15,555 | INFO | Epoch 24/25
+2026-03-14 01:03:40,941 | INFO | Epoch 24 | Train Loss: 0.0441 | Train Acc: 0.9852 | Val Loss: 0.0577 | Val Acc: 0.9802 | LR: 0.000100
+2026-03-14 01:03:40,941 | INFO | No improvement (1/5)
+2026-03-14 01:03:40,941 | INFO | Epoch 25/25
+2026-03-14 01:39:46,168 | INFO | Epoch 25 | Train Loss: 0.0483 | Train Acc: 0.9833 | Val Loss: 0.0552 | Val Acc: 0.9810 | LR: 0.000100
+2026-03-14 01:39:46,275 | INFO | Saved best model (val_loss=0.0552)
+2026-03-14 01:39:46,338 | INFO | Training complete in 517.8 min
+2026-03-14 01:39:46,338 | INFO | Best validation loss: 0.0552
+2026-03-14 01:39:46,338 | INFO | Checkpoint: outputs\best_model.pth

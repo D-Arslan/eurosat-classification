@@ -1,0 +1,2 @@
+2026-03-13 17:00:23,785 | INFO | Config: epochs=25, lr=0.001, batch_size=64, seed=42, patience=5
+2026-03-13 17:00:23,785 | INFO | Device: cpu
