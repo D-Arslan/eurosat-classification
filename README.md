@@ -81,19 +81,47 @@ Generates:
 
 ## Results
 
+Training: 25 epochs on CPU, best model saved at epoch with lowest validation loss (0.0552).
+
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | ~95% |
-| Macro F1 | ~0.95 |
-| Best val loss | logged in `logs/` |
+| **Test Accuracy** | **97.80%** |
+| Macro F1 | 0.9779 |
+| Weighted F1 | 0.9780 |
+| Best val accuracy | 98.10% |
+| Best val loss | 0.0552 |
+| Misclassified | 89 / 4,050 |
+
+### Per-class performance
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| AnnualCrop | 0.976 | 0.956 | 0.966 | 472 |
+| Forest | 0.984 | 0.996 | 0.990 | 442 |
+| HerbaceousVegetation | 0.978 | 0.972 | 0.975 | 458 |
+| Highway | 0.980 | 0.980 | 0.980 | 391 |
+| Industrial | 0.997 | 0.971 | 0.984 | 378 |
+| Pasture | 0.970 | 0.980 | 0.975 | 299 |
+| PermanentCrop | 0.951 | 0.968 | 0.960 | 379 |
+| Residential | 0.985 | 0.996 | 0.990 | 450 |
+| River | 0.966 | 0.987 | 0.976 | 375 |
+| SeaLake | 0.990 | 0.978 | 0.984 | 406 |
+
+### Confusion matrix
+
+![Confusion Matrix](src/outputs/confusion_matrix.png)
+
+### Misclassified examples
+
+![Misclassified Examples](src/outputs/misclassified.png)
 
 ## Environment
 
-- Python 3.10+
+- Python 3.12
 - PyTorch 2.x
-- CUDA 12.x (GPU) or CPU
+- CPU (trained without GPU)
 - See `requirements.txt` for full dependencies
 
 ## Author
 
-**Arslan DIF** — [GitHub](https://github.com/D-Arslan)
+**Arslan Aris DIF** — [GitHub](https://github.com/D-Arslan)
